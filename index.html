@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner" id="inicio">
+        <div class="banner-texto">
+            <h2>Agro forte, futuro sustentável</h2>
+            <p>
+                Produção agrícola com responsabilidade ambiental,
+                inovação e consciência para construir um futuro melhor.
+            </p>
+            <button onclick="mostrarMensagem()">Saiba Mais</button>
+        </div>
+    </section>
+
+    <section class="sobre" id="sobre">
+        <h2>Sobre o Projeto</h2>
+        <p>
+            Este site foi desenvolvido por Tayná Santana da Silva com o objetivo de destacar
+            a importância do equilíbrio entre o agronegócio e a preservação ambiental.
+            A agricultura sustentável promove desenvolvimento econômico sem comprometer
+            os recursos naturais das futuras gerações.
+        </p>
+    </section>
+
+    <section class="cards" id="sustentabilidade">
+        <div class="card">
+            <h3>🌿 Sustentabilidade</h3>
+            <p>
+                Técnicas sustentáveis reduzem impactos ambientais e ajudam na conservação do solo,
+                da água e da biodiversidade.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🚜 Tecnologia no Campo</h3>
+            <p>
+                A tecnologia aumenta a produtividade agrícola e permite um uso mais eficiente
+                dos recursos naturais.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>☀️ Energia Limpa</h3>
+            <p>
+                O uso de energia solar e outras fontes renováveis contribui para um campo
+                mais moderno e sustentável.
+            </p>
+        </div>
+    </section>
+
+    <section class="galeria" id="tecnologia">
+        <h2>Inovação no Agronegócio</h2>
+
+        <div class="imagens">
+            <div class="imagem-card">
+                <img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=1200&auto=format&fit=crop" alt="Plantação sustentável">
+                <p>Plantação sustentável</p>
+            </div>
+
+            <div class="imagem-card">
+                <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?q=80&w=1200&auto=format&fit=crop" alt="Tecnologia agrícola">
+                <p>Tecnologia agrícola</p>
+            </div>
+
+            <div class="imagem-card">
+                <img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?q=80&w=1200&auto=format&fit=crop" alt="Energia limpa no campo">
+                <p>Energia limpa no campo</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contador">
+        <h2>Árvores Preservadas</h2>
+        <p id="numero">0</p>
+        <button onclick="contarArvores()">Clique para plantar 🌳</button>
+    </section>
+
+    <section class="contato" id="contato">
+        <h2>Contato</h2>
+
+        <form id="formulario">
+            <input type="text" id="nome" placeholder="Seu nome" required>
+            <input type="email" id="email" placeholder="Seu e-mail" required>
+            <textarea id="mensagem" placeholder="Digite sua mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+</html>
